@@ -1,15 +1,8 @@
 <?php
 /**
- * The multiple environment configuration for WordPress
- *
  * @author Aphichat Panjamanee <http://28desk.com>
  * @version 1.0
  *
- * Put wp-config.php above your root folder (remove original wp-config.php file in the root)
- * Put this file above your root folder
- * Define the $root variable (folder of the server root)
- * Generate the secret-key (bottom of the file)
- * Add require_once((dirname(ABSPATH)) . '/wp-bootstrap.php'); at the beginning of wp-config.php
  */
 
 $server_name = $_SERVER['SERVER_NAME'];
